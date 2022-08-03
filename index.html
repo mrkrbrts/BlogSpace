@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BlogSpace</title>
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">   
+    </head>
+
+    <body>
+        <nav id="nav-bar">
+            <h1>BlogSpace</h1>
+        </nav>
+
+        <div id="content">
+            <form>
+                <label for="form-post-title">Title:</label> <br>
+                <input type="text" id="form-post-title" name="form-post-title"> <br>
+                <label for="form-post-body">Post:</label> <br>
+                <textarea id="form-post-body" name="form-post-body" rows="6"></textarea> <br>
+                <button id="submit-btn">Submit</button>
+                
+            </form>
+
+            <div id="blog-posts"></div>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
